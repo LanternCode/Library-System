@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Library System</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <sidebar>
+        <div>
+            Manage Copies
+        </div>
+        <hr>
+        <p>
+            Book ISBN:
+        </p>
+        <p>
+            <br />
+        </p>
+        <p>
+            Select Copy:
+        </p>
+
+    </sidebar>
+
+    <article>
+        <br />
+        <div>
+            Manage a book's copies'
+        </div>
+        <br />
+        <form action="" method="get" id="form">
+            <input type="text" name="txtISBN" required />
+            <br />
+            <input type="button" id="btnRefresh" style="width:100%;" value="Search Books" required />
+            <br />
+            <select name="lstCopies" size="30" style="width:100%;">
+
+            </select>
+
+        </form>
+    </article>
+    <footer>
+        <button onclick="window.location.href='Default.html'">
+            Cancel
+        </button>
+        <button onclick="window.location.href='Default.html'">
+            Back
+        </button>
+        <input type="submit" form="form" value="Add" />
+        <input type="submit" form="form" value="Edit" />
+        <input type="submit" form="form" value="Remove" />
+
+    </footer>
+</body>
+</html>

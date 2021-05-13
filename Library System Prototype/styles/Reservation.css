@@ -1,0 +1,87 @@
+﻿body {
+    background-color:white;
+}
+
+    
+
+header {
+    text-align:left;
+    color:white;
+}
+article {
+    border: solid;
+    border-width: medium;
+    position: fixed;
+    width: 30%;
+    height: 53%;
+    color: black;
+    padding: 5px 5px 5px 5px;
+}
+
+nav {
+    border: solid;
+    background-color: dodgerblue;
+    color: white;
+    border-width: medium;
+    position: fixed;
+    width: 10%;
+    height: 50%;
+}
+
+    
+input {
+    
+    position:absolute;
+   
+    
+    
+    
+}
+.FirstTextBox {
+    margin-top: 115px;
+    left: 35%;
+}
+.SecondTextBox {
+    margin-top: 150px;
+    left: 35%;
+}
+.ThirdTextBox {
+    margin-top: 184px;
+    left: 35%;
+}
+.FourthTextBox {
+    margin-top: 177px;
+    left: 35%;
+}
+
+
+
+button {
+    position:absolute;
+    margin-top: 78%;
+    left: 70%;
+    background-color: dodgerblue;
+    border-color: black;
+    color: white;
+}
+
+.SecondButton {
+    position:absolute;
+    margin-top: 78%;
+    left: 3%;
+    background-color: dodgerblue;
+    border-color: black;
+    color: white;
+}
+.ThirdButton {
+    position:absolute;
+    margin-top: 78%;
+    left: 20%;
+    background-color: dodgerblue;
+    border-color: black;
+    color: white;
+}
+h3 {
+    position: absolute;
+    left: 40%;
+}

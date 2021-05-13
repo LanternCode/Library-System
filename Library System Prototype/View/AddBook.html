@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Library System</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <sidebar>
+        <div>
+            Add book to collection
+        </div>
+        <hr>
+        <p>
+            Title:
+        </p>
+        <p>
+            Author:
+        </p>
+        <p>
+            ISBN:
+        </p>
+        <p>
+            Publisher:
+        </p>
+        <p>
+            Published Year:
+        </p>
+        <p>
+            Shelf Number:
+        </p>
+        <p>
+            Edition:
+        </p>
+        <p>
+            Genre:
+        </p>
+    </sidebar>
+
+    <article>
+        <br />
+        <div>
+            Add a book to the library's collection
+        </div>
+        <br />
+        <form action="AddBookProcessor.aspx" method="post" id="form">
+            <input type="text" name="txtTitle" required>
+            <br>
+            <input type="text" name="txtAuthor" required>
+            <br>
+            <input type="text" name="txtISBN" required>
+            <br>
+            <input type="text" name="txtPublisher" required>
+            <br>
+            <input type="number" name="txtPubYear" required>
+            <br>
+            <input type="text" name="txtShelfNo" pattern="[0-9.]{7}" required>
+            <br>
+            <input type="number" name="txtEdition" required>
+            <br>
+            <select name="ddlGenre" size="4">
+                <option value="G001" selected>SciFi</option>
+                <option value="G002">Manga</option>
+                <option value="G003">Humour</option>
+                <option value="G004">Cyberpunk</option>
+                <option value="G005">Thriller</option>
+            </select>
+            <br>
+        </form>
+    </article>
+    <footer>
+        <a href="Default.html">
+            <button>
+                Main Menu
+            </button>
+        </a>
+        <input type="submit" value="Add" form="form" />
+
+    </footer>
+</body>
+</html>
